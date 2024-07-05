@@ -8,11 +8,13 @@ Explore and test various AI models from different providers, all in one place. B
 AiSudo is a multi-platform client software for AI chat and image generation, all in one app. It supports various AI models from third-party providers.
 
 ## Usage
-You only need raw JSON file at <providers> folder, which serve as **editable** model configuration.
+You only need raw JSON file at **providers** folder, which serve as **editable** model configuration.
 
 -> Clone the Repository or download the raw JSON file at <providers> folder.  
 -> Visit AiSudo, then [download](https://aisudo.com/) the app or use the [online web app](https://app.aisudo.com).
 
+
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-aisudo.jpg)
 
 In App instruction:
 1. Click "(+) Models"
