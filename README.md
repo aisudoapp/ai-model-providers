@@ -6,6 +6,7 @@ Explore and test various AI models from different providers, all in one place. B
 
 ## What is AiSudo? <[https://aisudo.com](https://aisudo.com)>
 AiSudo is a multi-platform client software for AI chat and image generation, all in one app. It supports various AI models from third-party providers.
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-aisudo.jpg)
 
 ## Usage
 You only need raw JSON file at **providers** folder, which serve as **editable** model configuration.
@@ -13,13 +14,12 @@ You only need raw JSON file at **providers** folder, which serve as **editable**
 -> Clone the Repository or download the raw JSON file at <providers> folder.  
 -> Visit AiSudo, then [download](https://aisudo.com/) the app or use the [online web app](https://app.aisudo.com).
 
-
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-aisudo.jpg)
-
 In App instruction:
 1. Click "(+) Models"
 2. In Choose Model page, click "⋮" Icon
 3. Select "Load from JSON File"
+
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json.jpg)
 
 
 ## Folder & File Naming
@@ -33,8 +33,8 @@ providers
 │       │   README.md
 ```
 
-cc = Chat Completions
-tti = Text to Image
+- cc = Chat Completions
+- tti = Text to Image
 
 The README.md also served as model information.
 
