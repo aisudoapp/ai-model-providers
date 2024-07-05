@@ -1,0 +1,80 @@
+{
+	"title": "Hermes 2 Pro on Mistral 7B",
+	"descr": "Chat Completion",
+	"type": "chat-completion",
+	"icon_url": "https://aisudo.com/static/img/provider/aisudo.png",
+	"info_url": "https://aisudo.com/static/md/empty.md",
+	"session": {
+		"title": "Hermes 2 Mistral 7B",
+		"helper_list": [
+			"account_id",
+			"api_token",
+			"system",
+			"max_history",
+			"max_tokens",
+			"temperature"
+		],
+		"helper": {
+			"account_id": {
+				"title": "Account ID",
+				"widget": "password",
+				"value": ""
+			},
+			"api_token": {
+				"title": "API Token",
+				"widget": "password",
+				"value": ""
+			},
+			"system": {
+				"title": "System Instruction",
+				"widget": "text",
+				"value": ""
+			},
+			"max_history": {
+				"title": "Max History",
+				"widget": "slider",
+				"value": 8,
+				"min_value": 1,
+				"max_value": 32,
+				"step": 1,
+				"type": "int"
+			},
+			"max_tokens": {
+				"title": "Max Tokens",
+				"widget": "slider",
+				"value": 512,
+				"min_value": 64,
+				"max_value": 4096,
+				"step": 8,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"temperature": {
+				"title": "Temperature",
+				"widget": "slider",
+				"value": 1.1,
+				"min_value": 0.0,
+				"max_value": 2,
+				"step": 0.1,
+				"type": "double",
+				"copy_to": "body"
+			},
+			"prompt": {
+				"value": "hello"
+			}
+		},
+		"request": {
+			"endpoint": "https://api.cloudflare.com/client/v4/accounts/<< helper.account_id >>/ai/run/@hf/nousresearch/hermes-2-pro-mistral-7b",
+			"headers": {
+				"Authorization": "Bearer << helper.api_token >>",
+				"Content-Type": "application/json"
+			},
+			"body": {
+				"stream": true
+			}
+		},
+		"response": {
+			"result_path": "response"
+		}
+	}
+}
