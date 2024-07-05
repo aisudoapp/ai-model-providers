@@ -19,7 +19,7 @@ In App instruction:
 2. In Choose Model page, click "⋮" Icon
 3. Select "Load from JSON File"
 
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json.jpg)
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json-2.jpg)
 
 
 ## Folder & File Naming
