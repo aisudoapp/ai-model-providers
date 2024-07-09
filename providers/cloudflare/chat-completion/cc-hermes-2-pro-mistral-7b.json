@@ -1,9 +1,9 @@
 {
-	"title": "Hermes 2 Pro on Mistral 7B",
+	"title": "Cloudflare Hermes 2 Pro on Mistral 7B",
 	"descr": "Chat Completion",
 	"type": "chat-completion",
 	"icon_url": "https://aisudo.com/static/img/provider/aisudo.png",
-	"info_url": "https://aisudo.com/static/md/empty.md",
+	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/cloudflare/README.md",
 	"session": {
 		"title": "Hermes 2 Mistral 7B",
 		"helper_list": [
