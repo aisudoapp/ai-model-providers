@@ -26,11 +26,11 @@ In App instruction:
 ```
 providers
 └───provider-name
-│   └───model-type
-│       │   cc-model-name.json
-│       │   tti-model-name.json
-│       │   ...
-│       │   README.md
+|	│   cc-base.json
+│   │   cc-model-name.json
+│   │   tti-model-name.json
+|	│   README.md
+│
 ```
 
 - cc = Chat Completions

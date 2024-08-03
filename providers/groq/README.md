@@ -1,6 +1,6 @@
 
 
-# Groq as Aisudo 3rd Party
+# Groq as Aisudo 3rd Party API
 
 API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
 
@@ -8,7 +8,9 @@ Model: **[List Supported Models](https://console.groq.com/keys)**
 
 How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-providers/tree/main#usage)
 
-The data below is last updated at: 3 August 2024
+
+
+**The data below is last updated at: 3 August 2024**
 ## Limits
 
 | ID | REQUESTS PER MINUTE | REQUESTS PER DAY | TOKENS PER MINUTE | TOKENS PER DAY |
@@ -25,6 +27,8 @@ The data below is last updated at: 3 August 2024
 | llama3-groq-8b-8192-tool-use-preview | 30 | 14,400 | 15,000 | (No limit) |
 | mixtral-8x7b-32768 | 30 | 14,400 | 5,000 | (No limit) |
 
+
+**Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to its highest value (131,072). Please verify the model limits for the specific model you are using.
 
 ## On Demand Pricing
 | Model | PRICE PER MILLION TOKENS | CURRENT SPEED | PRICE |
