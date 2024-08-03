@@ -1,0 +1,79 @@
+{
+	"title": "Llama3 8B",
+	"descr": "Chat Completion",
+	"type": "chat-completion",
+	"info_url": "https://aisudo.com/static/md/empty.md",
+	"session": {
+		"title": "Llama3 8B",
+		"helper_list": [
+			"api_key",
+			"system",
+			"max_history",
+			"max_tokens",
+			"temperature"
+		],
+		"helper": {
+			"model": {
+				"title": "Model",
+				"widget": "text",
+				"value": "",
+				"copy_to": "body"
+			},
+			"api_key": {
+				"title": "API KEY",
+				"widget": "password",
+				"value": ""
+			},
+			"system": {
+				"title": "System Instruction",
+				"widget": "text",
+				"value": ""
+			},
+			"max_history": {
+				"title": "Max History",
+				"widget": "slider",
+				"value": 8,
+				"min_value": 1,
+				"max_value": 32,
+				"step": 1,
+				"type": "int"
+			},
+			"max_tokens": {
+				"title": "Max Tokens",
+				"widget": "slider",
+				"value": 2048,
+				"min_value": 64,
+				"max_value": 131072,
+				"step": 64,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"temperature": {
+				"title": "Temperature",
+				"widget": "slider",
+				"value": 0.7,
+				"min_value": 0.0,
+				"max_value": 2,
+				"step": 0.1,
+				"type": "double",
+				"copy_to": "body"
+			},
+			"prompt": {
+				"value": "hello"
+			}
+		},
+		"request": {
+			"endpoint": "https://api.groq.com/openai/v1/chat/completions",
+			"headers": {
+				"Authorization": "Bearer << helper.api_key >>",
+				"Content-Type": "application/json"
+			},
+			"body": {
+				"stream": true
+			}
+		},
+		"response": {
+			"result_path": "choices.0.delta.content"
+		}
+	}
+}
