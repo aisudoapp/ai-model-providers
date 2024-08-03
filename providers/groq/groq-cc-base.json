@@ -1,15 +1,14 @@
 {
-	"title": "Llama3 8B",
+	"title": "Groq Base",
 	"descr": "Chat Completion",
 	"type": "chat-completion",
 	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/groq/README.md",
 	"session": {
-		"title": "Llama3 8B",
+		"title": "Chat - Groq",
+		"plugin_list": ["model_info"],
 		"helper_list": [
-			"api_key",
-			"system",
-			"max_history",
-			"max_tokens",
+			"api_key", "system",
+			"max_history","max_tokens",
 			"temperature"
 		],
 		"helper": {

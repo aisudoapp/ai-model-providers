@@ -8,7 +8,7 @@ API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
 Model: **[List Supported Models](https://console.groq.com/keys)**
 
 How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-providers/tree/main#usage)
-
+  
   
 ---
 
@@ -31,12 +31,11 @@ The data below is last updated at: **3 August 2024**
 
   
 **Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to its highest value (131,072). Please verify the model limits for the specific model you are using.
-
----
+  
 
 ## On Demand Pricing
-| Model | PRICE PER MILLION TOKENS | CURRENT SPEED | PRICE |
-| --- | --- | --- | --- |
+| Model  | CURRENT SPEED | PRICE PER MILLION TOKENS |
+| --- | --- | --- |
 | Gemma 7b It | ~950 tokens/s | $0.07/$0.07 |
 | Gemma2 9b It | ~500 tokens/s | $0.20/$0.20 |
 | Llama 3.1 405b Reasoning |  | N/A |

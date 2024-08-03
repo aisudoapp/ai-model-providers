@@ -36,13 +36,15 @@ providers
 - cc = Chat Completions
 - tti = Text to Image
 
-For most case, the 'base.json' is enough.
+For most case, the 'base.json' is enough.  
+  
 The README.md also served as model information.
 
 ## Limitations
 - Currently, AiSudo only support chat completions for the 3rd party models. We are working to expand our capabilities in the future.
 - When using the model listed in this repository, you can ignore the request rate limit on your aisudo account, that limit is only for our official models.
 - Request rate limits are dependent on the 3rd party provider and may vary. We recommend checking the provider's website for the most up-to-date information on request rates.
+- The downside of using the 3rd party json is: you can't use AiSudo preset and language selection.
 
 
 ## Privacy
