@@ -12,7 +12,7 @@ How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-provid
   
 ---
 
-**The data below is last updated at: 3 August 2024**
+The data below is last updated at: **3 August 2024**
 ## Limits
 
 | ID | REQUESTS PER MINUTE | REQUESTS PER DAY | TOKENS PER MINUTE | TOKENS PER DAY |
@@ -31,7 +31,9 @@ How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-provid
 
   
 **Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to its highest value (131,072). Please verify the model limits for the specific model you are using.
+
 ---
+
 ## On Demand Pricing
 | Model | PRICE PER MILLION TOKENS | CURRENT SPEED | PRICE |
 | --- | --- | --- | --- |
