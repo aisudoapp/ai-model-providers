@@ -26,9 +26,9 @@ In App instruction:
 ```
 providers
 └───provider-name
+|	└─── chat-completion (for specific model)
 |	│   cc-base.json
-│   │   cc-model-name.json
-│   │   tti-model-name.json
+|	│   tti-base.json
 |	│   README.md
 │
 ```
@@ -36,6 +36,7 @@ providers
 - cc = Chat Completions
 - tti = Text to Image
 
+For most case, the 'base.json' is enough.
 The README.md also served as model information.
 
 ## Limitations
