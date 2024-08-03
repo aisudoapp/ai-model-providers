@@ -1,12 +1,12 @@
 
 
-# Groq as 3rd Party
+# Groq as Aisudo 3rd Party
 
 API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
 
 Model: **[List Supported Models](https://console.groq.com/keys)**
 
-
+How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-providers/tree/main#usage)
 
 The data below is last updated at: 3 August 2024
 ## Limits
