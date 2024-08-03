@@ -1,6 +1,6 @@
 
 
-# "**Groq Integration**: Available as a 3rd party API through Aisudo
+# **Groq Integration**: Available as a 3rd party API through Aisudo
 
 
 API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
