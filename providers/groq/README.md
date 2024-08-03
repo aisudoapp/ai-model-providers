@@ -10,7 +10,7 @@ Model: **[List Supported Models](https://console.groq.com/keys)**
 How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-providers/tree/main#usage)
 
 
-
+=====
 **The data below is last updated at: 3 August 2024**
 ## Limits
 
@@ -28,9 +28,9 @@ How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-provid
 | llama3-groq-8b-8192-tool-use-preview | 30 | 14,400 | 15,000 | (No limit) |
 | mixtral-8x7b-32768 | 30 | 14,400 | 5,000 | (No limit) |
 
-
+  
 **Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to its highest value (131,072). Please verify the model limits for the specific model you are using.
-
+=====
 ## On Demand Pricing
 | Model | PRICE PER MILLION TOKENS | CURRENT SPEED | PRICE |
 | --- | --- | --- | --- |
