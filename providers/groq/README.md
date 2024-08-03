@@ -5,7 +5,7 @@
 
 API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
 
-Model: **[List Supported Models](https://console.groq.com/keys)**
+Model: **[List Supported Models](https://console.groq.com/docs/models)**
 
 How to use: [Step by step Tutorial](https://github.com/aisudoapp/ai-model-providers/tree/main#usage)
   
@@ -30,7 +30,7 @@ The data below is last updated at: **3 August 2024**
 | mixtral-8x7b-32768 | 30 | 14,400 | 5,000 | (No limit) |
 
   
-**Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to its highest value (131,072). Please verify the model limits for the specific model you are using.
+**Note:** The maximum tokens/context window on the 'groq-cc-base.json' is set to 8.000. Please verify the model limits for the specific model you are using.
   
 
 ## On Demand Pricing
@@ -47,3 +47,7 @@ The data below is last updated at: **3 August 2024**
 | Llama3 Groq 8b 8192 Tool Use Preview | ~1,050 tokens/s | $0.19/$0.19 |
 | Mixtral 8x7b 32768 | ~575 tokens/s | $0.24/$0.24 |
 | Whisper Large V3 | ~172x speed factor | $0.03/hour transcribed |
+
+  
+## Screenshot
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/Screenshot-provider-groq.jpg)

@@ -44,7 +44,7 @@
 				"widget": "slider",
 				"value": 2048,
 				"min_value": 64,
-				"max_value": 131072,
+				"max_value": 8000,
 				"step": 64,
 				"type": "int",
 				"copy_to": "body"
