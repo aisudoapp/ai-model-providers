@@ -7,7 +7,9 @@
 		"title": "Chat - Groq",
 		"is_3rd_party": true,
 		"helper_list": [
-			"api_key", "system",
+			"api_key", 
+			"model",
+			"system",
 			"max_history","max_tokens",
 			"temperature"
 		],
