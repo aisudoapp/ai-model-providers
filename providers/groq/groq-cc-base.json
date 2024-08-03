@@ -5,7 +5,7 @@
 	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/groq/README.md",
 	"session": {
 		"title": "Chat - Groq",
-		"plugin_list": ["model_info"],
+		"is_3rd_party": true,
 		"helper_list": [
 			"api_key", "system",
 			"max_history","max_tokens",
