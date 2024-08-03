@@ -1,6 +1,7 @@
 
 
-# Groq as Aisudo 3rd Party API
+# "**Groq Integration**: Available as a 3rd party API through Aisudo
+
 
 API KEY: **[Get your API KEY (click here)](https://console.groq.com/keys)**
 
