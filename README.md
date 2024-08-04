@@ -15,11 +15,11 @@ You only need raw JSON file at **providers** folder, which serve as **editable**
 -> Visit AiSudo, then [download](https://aisudo.com/) the app or use the [online web app](https://app.aisudo.com).
 
 In App instruction:
-1. Click "(+) Models"
-2. In Choose Model page, click "⋮" Icon
-3. Select "Load from JSON File"
+1. Click "(+) New Session"
+2. Select "Load from JSON File"
+3. Select the json file from **providers** folder above.
 
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json-2.jpg)
+<!-- ![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json-2.jpg) -->
 
 
 ## Folder & File Naming
