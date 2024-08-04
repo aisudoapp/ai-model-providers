@@ -1,6 +1,6 @@
 
 
-# Groq Integration - Aisudo 3rd Party API
+# HuggingFace Integration - Aisudo 3rd Party API
 
 
 API KEY: **[Get your API KEY (click here)](https://huggingface.co/settings/tokens)**
