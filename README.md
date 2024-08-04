@@ -11,7 +11,7 @@ AiSudo is a multi-platform client software for AI chat and image generation, all
 ## Usage
 You only need raw JSON file at **providers** folder, which serve as **editable** model configuration.
 
--> Clone the Repository or download the raw JSON file at <providers> folder.  
+-> Clone the Repository or download the raw JSON file at **providers** folder.  
 -> Visit AiSudo, then [download](https://aisudo.com/) the app or use the [online web app](https://app.aisudo.com).
 
 In App instruction:
