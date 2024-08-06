@@ -83,7 +83,7 @@
 		"request": {
 			"endpoint": "https://api.anthropic.com/v1/messages",
 			"headers": {
-				"x-api-key": "Bearer << helper.api_key >>",
+				"x-api-key": "<< helper.api_key >>",
 				"anthropic-version": "2023-06-01",
 				"Content-Type": "application/json"
 			},
