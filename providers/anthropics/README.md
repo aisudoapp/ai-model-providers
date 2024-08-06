@@ -5,16 +5,16 @@
 
 How to use: 
 1. Get your API at: **[https://console.anthropic.com/settings/keys)](https://console.anthropic.com/settings/keys)** -> Click "+ Create Key"
-2. Download claude-cc-base.json from AiSudo Github.
+2. Download **[claude-cc-base.json](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/claude-cc-base.json)**  from AiSudo Github.
 3. Open AiSudo App
 4. Go to "+ New Session" -> "Load from JSON File" -> Select the json file from step-2
 5. Go to Session "Settings" -> "Model Settings"
-6. Paste the API Key from step-2
+6. Paste the API Key from step-1
 
 ---
 
 ## Limits
-This is the limit for Anthropics (Free Tier):
+This is the limit for Anthropics Free Tier:
 
 | MODEL TIER | REQUESTS PER MINUTE | TOKENS PER MINUTE | TOKENS PER DAY |
 | --- | --- | --- | --- |
