@@ -3,21 +3,32 @@
 # Anthropics Integration - Aisudo 3rd Party API
 *This document is last updated at: 7 August 2024*
 
-How to use: 
-1. Get your API at: **[https://console.anthropic.com/settings/keys)](https://console.anthropic.com/settings/keys)** 
-	-> Click "+ Create Key"
-2. Download **[claude-cc-base.json](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/anthropics/claude-cc-base.json)**  from AiSudo Github.
-3. Open AiSudo App
+## How to use
+### Get your API at Anthropic
+- -> Go to [https://console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)
+- -> Click "+ Create Key"
+- -> Copy and save this API KEY, you will not be able to view it again.
+
+If haven't use Anthropics api before, you need to activate free plan:
+- -> Go to [https://console.anthropic.com/settings/plans](https://console.anthropic.com/settings/plans)
+- -> Click "Claim"
+
+### Setup AiSudo App
+
+1. Open AiSudo App
 	-> "+ New Session" 
 	-> "Load from JSON File" 
-	-> Select the json file from step-2
+	-> Select the json file you downloaded (claude-cc-base.json)
 	-> "Create Session"
 After that, the session will be created.
-4. Go to: 
+2. Go to: 
 	-> Session "Settings" 
 	-> "Model Settings"
-6. Paste the API Key from step-1
+Paste the API Key from Anthropic
   
+The configuration also available as editable json at: [https://github.com/aisudoapp/ai-model-providers](https://github.com/aisudoapp/ai-model-providers)
+
+
 ---
 
 ## Limits

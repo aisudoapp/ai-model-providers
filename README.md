@@ -1,5 +1,5 @@
 
-# Free AI Model Providers
+# AI Model Providers
 
 This repository contains a list of several 3rd-party AI model providers configuration that compatible with AiSudo App.
 Explore and test various AI models from different providers, all in one place. Browse through our list to find the perfect model for your project, and start building with ease.

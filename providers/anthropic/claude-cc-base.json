@@ -1,10 +1,10 @@
 {
-	"title": "Anthropics Claude",
+	"title": "Claude by Anthropics",
 	"descr": "Chat Completion",
 	"type": "chat-completion",
 	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/anthropics/README.md",
 	"session": {
-		"title": "Chat - Claude",
+		"title": "Chat - Claude 3 API",
 		"helper_list": [
 			"api_key", 
 			"model",
@@ -45,13 +45,14 @@
 			"system": {
 				"title": "System Instruction",
 				"widget": "text",
-				"value": ""
+				"value": "",
+				"copy_to": "body"
 			},
 			"max_history": {
 				"title": "Max History",
 				"widget": "slider",
 				"value": 8,
-				"min_value": 2,
+				"min_value": 1,
 				"max_value": 64,
 				"step": 1,
 				"type": "int"
@@ -61,7 +62,7 @@
 				"widget": "slider",
 				"value": 2048,
 				"min_value": 64,
-				"max_value": 8000,
+				"max_value": 8192,
 				"step": 64,
 				"type": "int",
 				"copy_to": "body"
@@ -81,6 +82,7 @@
 			}
 		},
 		"request": {
+			"format": "anthropic",
 			"endpoint": "https://api.anthropic.com/v1/messages",
 			"headers": {
 				"x-api-key": "<< helper.api_key >>",
@@ -92,7 +94,7 @@
 			}
 		},
 		"response": {
-			"result_path": "choices.0.delta.content"
+			"result_path": "delta.text"
 		}
 	}
 }
