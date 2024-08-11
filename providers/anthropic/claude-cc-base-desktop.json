@@ -6,36 +6,43 @@
 	"session": {
 		"title": "Chat - Claude 3 API",
 		"helper_list": [
-			"api_key", 
+			"api_key",
 			"model",
 			"system",
-			"max_history","max_tokens",
+			"max_history",
+			"max_tokens",
 			"temperature"
+		],
+		"messages": [
+			{
+				"role": "information",
+				"content": "## How to use\n### Get your API at Anthropic\n- Go to [https://console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)\n- Click \"+ Create Key\"\n- Copy and save this API KEY, you will not be able to view it again.\n\nIf haven't use Anthropics api before, you need to activate free plan:\n- Go to [https://console.anthropic.com/settings/plans](https://console.anthropic.com/settings/plans)\n- Click \"Claim\"\n\n### Setup AiSudo App\nOn this session: \n- Click \"Settings\" (if you're on mobile) \n- Paste the API Key from Anthropic to \"API KEY\" Field."
+			}
 		],
 		"helper": {
 			"model": {
-			  "title": "Model",
-			  "widget": "dropdown",
-			  "value": "claude-3-5-sonnet-20240620",
-			  "copy_to": "body",
-			  "options": [
-				{
-				  "value": "claude-3-5-sonnet-20240620",
-				  "title": "claude-3-5-sonnet-20240620"
-				},
-				{
-				  "value": "claude-3-opus-20240229",
-				  "title": "claude-3-opus-20240229"
-				},
-				{
-				  "value": "claude-3-sonnet-20240229",
-				  "title": "claude-3-sonnet-20240229"
-				},
-				{
-				  "value": "claude-3-haiku-20240307",
-				  "title": "claude-3-haiku-20240307"
-				}
-			  ]
+				"title": "Model",
+				"widget": "dropdown",
+				"value": "claude-3-5-sonnet-20240620",
+				"copy_to": "body",
+				"options": [
+					{
+						"value": "claude-3-5-sonnet-20240620",
+						"title": "claude-3-5-sonnet-20240620"
+					},
+					{
+						"value": "claude-3-opus-20240229",
+						"title": "claude-3-opus-20240229"
+					},
+					{
+						"value": "claude-3-sonnet-20240229",
+						"title": "claude-3-sonnet-20240229"
+					},
+					{
+						"value": "claude-3-haiku-20240307",
+						"title": "claude-3-haiku-20240307"
+					}
+				]
 			},
 			"api_key": {
 				"title": "API KEY",

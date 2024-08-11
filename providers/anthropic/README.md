@@ -1,41 +1,40 @@
 
 
 # Anthropics Integration - Aisudo 3rd Party API
-*This document is last updated at: 7 August 2024*
+*Document is last updated at: 11 August 2024*
+This readme document also available at: [AiSudo Github - Anthropic](https://github.com/aisudoapp/ai-model-providers/tree/main/providers/anthropic)
 
 
+## How to use
+### Get your API at Anthropic
+- Go to [https://console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)
+- Click "+ Create Key"
+- Copy and save this API KEY, you will not be able to view it again.
+
+If haven't use Anthropics api before, you need to activate free plan:
+- Go to [https://console.anthropic.com/settings/plans](https://console.anthropic.com/settings/plans)
+- Click "Claim"
+
+### Setup AiSudo App
+
+1. Open AiSudo App
+- Click "+ New Session" 
+- Click "3rd Party API"
+- Click "Load from JSON File" 
+- Select the json file you downloaded.
+- Click "Create Session"
+After that, the session will be created.
+2. After session created: 
+- Click "Settings" (if you're on mobile)
+- Paste the API Key from Anthropic
+
+  
 ## Web App CORS
 There are 2 configurations platform for Claude, web and desktop config. 
 On Web configuration, your request will be routed to AiSudo server first, this is because Anthropic is not enabling CORS.
 Detail: [https://github.com/anthropics/anthropic-sdk-typescript/issues/219](https://github.com/anthropics/anthropic-sdk-typescript/issues/219)
   
 If you are using desktop app, please use desktop config, your request will be sent directly to anthropic and it will be faster.
-
-## How to use
-### Get your API at Anthropic
-- -> Go to [https://console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)
-- -> Click "+ Create Key"
-- -> Copy and save this API KEY, you will not be able to view it again.
-
-If haven't use Anthropics api before, you need to activate free plan:
-- -> Go to [https://console.anthropic.com/settings/plans](https://console.anthropic.com/settings/plans)
-- -> Click "Claim"
-
-### Setup AiSudo App
-
-1. Open AiSudo App
-- -> "+ New Session" 
-- -> "3rd Party API"
-- -> "Load from JSON File" 
-- -> Select the json file you downloaded.
-- -> "Create Session"
-After that, the session will be created.
-2. Go to: 
-- -> Session "Settings" 
-- -> "Model Settings"
-Paste the API Key from Anthropic
-  
-The configuration also available as editable json at: [https://github.com/aisudoapp/ai-model-providers](https://github.com/aisudoapp/ai-model-providers)
 
 
 ---
