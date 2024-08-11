@@ -50,4 +50,4 @@ The data below is last updated at: **3 August 2024**
 
   
 ## Screenshot
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/Screenshot-provider-groq.jpg)
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-provider-groq.jpg)
