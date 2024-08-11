@@ -3,6 +3,14 @@
 # Anthropics Integration - Aisudo 3rd Party API
 *This document is last updated at: 7 August 2024*
 
+
+## Web App CORS
+There are 2 configurations platform for Claude, web and desktop config. 
+On Web configuration, your request will be routed to AiSudo server first, this is because Anthropic is not enabling CORS.
+Detail: [https://github.com/anthropics/anthropic-sdk-typescript/issues/219](https://github.com/anthropics/anthropic-sdk-typescript/issues/219)
+  
+If you are using desktop app, please use desktop config, your request will be sent directly to anthropic and it will be faster.
+
 ## How to use
 ### Get your API at Anthropic
 - -> Go to [https://console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys)
@@ -17,8 +25,9 @@ If haven't use Anthropics api before, you need to activate free plan:
 
 1. Open AiSudo App
 	-> "+ New Session" 
+	-> "3rd Party API"
 	-> "Load from JSON File" 
-	-> Select the json file you downloaded (claude-cc-base.json)
+	-> Select the json file you downloaded.
 	-> "Create Session"
 After that, the session will be created.
 2. Go to: 

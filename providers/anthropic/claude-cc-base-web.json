@@ -1,5 +1,5 @@
 {
-	"title": "Claude by Anthropics",
+	"title": "Claude 3 - Anthropic (Web)",
 	"descr": "Chat Completion",
 	"type": "chat-completion",
 	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/anthropics/README.md",
@@ -83,13 +83,14 @@
 		},
 		"request": {
 			"format": "anthropic",
-			"endpoint": "https://api.anthropic.com/v1/messages",
+			"endpoint": "https://aisudo.com/api/v2/bypass-cors",
 			"headers": {
 				"x-api-key": "<< helper.api_key >>",
 				"anthropic-version": "2023-06-01",
 				"Content-Type": "application/json"
 			},
 			"body": {
+				"endpoint": "https://api.anthropic.com/v1/messages",
 				"stream": true
 			}
 		},
