@@ -31,7 +31,7 @@ After that, the session will be created.
   
 ## Web App CORS
 There are 2 configurations platform for Claude, web and desktop config. 
-On Web configuration, your request will be routed to AiSudo server first, this is because Anthropic is not enabling CORS.
+On Web configuration, your request will be routed to AiSudo server first, this is because Anthropic API is not supporting CORS.
 Detail: [https://github.com/anthropics/anthropic-sdk-typescript/issues/219](https://github.com/anthropics/anthropic-sdk-typescript/issues/219)
   
 If you are using desktop app, please use desktop config, your request will be sent directly to anthropic and it will be faster.
