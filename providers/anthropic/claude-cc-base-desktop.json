@@ -2,7 +2,7 @@
 	"title": "Claude 3 - Anthropic (Desktop)",
 	"descr": "Chat Completion",
 	"type": "chat-completion",
-	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/anthropics/README.md",
+	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/anthropic/README.md",
 	"session": {
 		"title": "Chat - Claude 3 API",
 		"helper_list": [
