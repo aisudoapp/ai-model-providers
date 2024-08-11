@@ -24,15 +24,15 @@ If haven't use Anthropics api before, you need to activate free plan:
 ### Setup AiSudo App
 
 1. Open AiSudo App
-	-> "+ New Session" 
-	-> "3rd Party API"
-	-> "Load from JSON File" 
-	-> Select the json file you downloaded.
-	-> "Create Session"
+	- -> "+ New Session" 
+	- -> "3rd Party API"
+	- -> "Load from JSON File" 
+	- -> Select the json file you downloaded.
+	- -> "Create Session"
 After that, the session will be created.
 2. Go to: 
-	-> Session "Settings" 
-	-> "Model Settings"
+	- -> Session "Settings" 
+	- -> "Model Settings"
 Paste the API Key from Anthropic
   
 The configuration also available as editable json at: [https://github.com/aisudoapp/ai-model-providers](https://github.com/aisudoapp/ai-model-providers)
