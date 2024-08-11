@@ -83,4 +83,4 @@ Check [https://docs.anthropic.com/en/api/messages](https://docs.anthropic.com/en
 ---
   
 ## Screenshot
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-provider-anthropic.jpg)
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-provider-anthropic-2.jpg)
