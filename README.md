@@ -21,6 +21,9 @@ In App instruction:
 
 <!-- ![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-load-json-2.jpg) -->
 
+## LLM Provider Configurations
+[Claude 3 by Anthropic](https://github.com/aisudoapp/ai-model-providers/tree/main/providers/anthropic)
+
 
 ## Folder & File Naming
 ```
@@ -41,7 +44,7 @@ For most case, the 'base.json' is enough.
 The README.md also served as model information.
 
 ## Limitations
-- Currently, AiSudo only support chat completions for the 3rd party models. We are working to expand our capabilities in the future.
+- Currently, for the 3rd party models, AiSudo only support chat completions. We are working to expand our capabilities in the future.
 - When using the model listed in this repository, you can ignore the request rate limit on your aisudo account, that limit is only for our official models.
 - Request rate limits are dependent on the 3rd party provider and may vary. We recommend checking the provider's website for the most up-to-date information on request rates.
 - The downside of using the 3rd party json is: you can't use AiSudo preset and language selection.
