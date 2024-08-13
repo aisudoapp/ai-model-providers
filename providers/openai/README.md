@@ -72,4 +72,4 @@ Check [https://platform.openai.com/docs/api-reference/chat/create](https://platf
 ---
   
 ## Screenshot
-![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot-provider-openai.jpg)
+![Screenshot AiSudo](https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/assets/screenshot/provider-openai.jpg)
