@@ -1,0 +1,110 @@
+{
+	"title": "ChatGPT - OpenAI",
+	"descr": "Chat Completion",
+	"type": "chat-completion",
+	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/openai/README.md",
+	"session": {
+		"title": "Chat - GPT API",
+		"helper_list": [
+			"api_key",
+			"model",
+			"system",
+			"max_history",
+			"max_tokens",
+			"temperature"
+		],
+		"messages": [
+			{
+				"role": "information",
+				"content": "## How to use\n### Get your API at OpenAI\n- Go to [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)\n- Click \"+ Create new secret key\"\n- Copy and save this API KEY, you will not be able to view it again.\n\n*Note: There seems some trouble people getting $5 free trial credits, so you might need to setup OpenAI billing.*\n\n### Setup AiSudo App\nOn this session: \n- Click \"Settings\" (if you're on mobile)\n- Paste the API Key from OpenAI to \"API KEY\" Field."
+			}
+		],
+		"helper": {
+			"model": {
+				"title": "Model",
+				"widget": "dropdown",
+				"value": "gpt-4o",
+				"copy_to": "body",
+				"options": [
+					{
+						"value": "gpt-4o",
+						"title": "gpt-4o"
+					},
+					{
+						"value": "gpt-4o-mini",
+						"title": "gpt-4o-mini"
+					},
+					{
+						"value": "gpt-4-turbo",
+						"title": "gpt-4-turbo"
+					},
+					{
+						"value": "gpt-4",
+						"title": "gpt-4"
+					},
+					{
+						"value": "gpt-3.5-turbo",
+						"title": "gpt-3.5-turbo"
+					}
+				]
+			},
+			"api_key": {
+				"title": "API KEY",
+				"widget": "password",
+				"value": ""
+			},
+			"system": {
+				"title": "System Instruction",
+				"widget": "text",
+				"value": "",
+				"copy_to": "body"
+			},
+			"max_history": {
+				"title": "Max History",
+				"widget": "slider",
+				"value": 8,
+				"min_value": 1,
+				"max_value": 64,
+				"step": 1,
+				"type": "int"
+			},
+			"max_tokens": {
+				"title": "Max Tokens",
+				"widget": "slider",
+				"value": 2048,
+				"min_value": 64,
+				"max_value": 4096,
+				"step": 64,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"temperature": {
+				"title": "Temperature",
+				"widget": "slider",
+				"value": 1.0,
+				"min_value": 0.0,
+				"max_value": 2.0,
+				"step": 0.1,
+				"type": "double",
+				"copy_to": "body"
+			},
+			"prompt": {
+				"value": "hello"
+			}
+		},
+		"request": {
+			"format": "openai",
+			"endpoint": "https://api.openai.com/v1/chat/completions",
+			"headers": {
+				"Authorization": "Bearer << helper.api_key >>",
+				"Content-Type": "application/json"
+			},
+			"body": {
+				"stream": true
+			}
+		},
+		"response": {
+			"result_path": "choices.0.delta.content"
+		}
+	}
+}
