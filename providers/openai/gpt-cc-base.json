@@ -56,8 +56,7 @@
 			"system": {
 				"title": "System Instruction",
 				"widget": "text",
-				"value": "",
-				"copy_to": "body"
+				"value": ""
 			},
 			"max_history": {
 				"title": "Max History",
