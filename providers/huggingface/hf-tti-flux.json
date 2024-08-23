@@ -1,0 +1,102 @@
+{
+	"title": "Flux - HuggingFace",
+	"type": "text-to-image",
+	"descr": "Image Generation",
+	"info_url": "https://raw.githubusercontent.com/aisudoapp/ai-model-providers/main/providers/huggingface/README.md",
+	"session": {
+		"title": "Flux - HuggingFace",
+		"helper_list": [
+			"api_key",
+			"model",
+			"parameters.negative_prompt",
+			"parameters.guidance_scale",
+			"parameters.num_inference_steps",
+			"parameters.width",
+			"parameters.height"
+		],
+		"helper": {
+			"model": {
+				"title": "Model",
+				"widget": "dropdown",
+				"value": "black-forest-labs/FLUX.1-schnell",
+				"copy_to": "body",
+				"options": [
+					{
+						"value": "black-forest-labs/FLUX.1-schnell",
+						"title": "black-forest-labs/FLUX.1-schnell"
+					},
+					{
+						"value": "black-forest-labs/FLUX.1-dev",
+						"title": "black-forest-labs/FLUX.1-dev"
+					}
+				]
+			},
+			"api_key": {
+				"title": "API KEY",
+				"widget": "password",
+				"value": ""
+			},
+			"parameters.negative_prompt": {
+				"title": "Negative Prompt",
+				"widget": "text",
+				"copy_to": "body",
+				"value": ""
+			},
+			"parameters.guidance_scale": {
+				"title": "Guidance / CFG Scale",
+				"widget": "slider",
+				"value": 7.5,
+				"min_value": 1.0,
+				"max_value": 20.0,
+				"step": 0.5,
+				"type": "double",
+				"copy_to": "body"
+			},
+			"parameters.num_inference_steps": {
+				"title": "Inference Steps",
+				"widget": "slider",
+				"value": 4,
+				"min_value": 1,
+				"max_value": 50,
+				"step": 1,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"parameters.width": {
+				"title": "Image Width",
+				"widget": "slider",
+				"value": 1024,
+				"min_value": 128,
+				"max_value": 2048,
+				"step": 64,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"parameters.height": {
+				"title": "Image Height",
+				"widget": "slider",
+				"value": 1024,
+				"min_value": 128,
+				"max_value": 2048,
+				"step": 64,
+				"type": "int",
+				"copy_to": "body"
+			},
+			"prompt": {
+				"value": ""
+			}
+		},
+		"request": {
+			"endpoint": "https://api-inference.huggingface.co/models/<< helper.model >>",
+			"headers": {
+				"Authorization": "Bearer << helper.api_key >>",
+				"Content-Type": "application/json"
+			},
+			"body": {
+				"inputs": "<< helper.prompt >>"
+			},
+			"timeout": 300
+		},
+		"response": {"type": "bitmap"}
+	}
+}
