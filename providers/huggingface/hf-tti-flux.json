@@ -14,6 +14,12 @@
 			"parameters.width",
 			"parameters.height"
 		],
+		"messages": [
+			{
+				"role": "information",
+				"content": "## How to use\n### Get your API at Hugging Face\n- Go to [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)\n- Click \"+ Create Key\"\n- Copy and save this API KEY, you will not be able to view it again.\n\n### Setup AiSudo App\nOn this session: \n- Click \"Settings\" (if you're on mobile)\n- Paste the API Key from Hugging Face to \"API KEY\" Field.\n\nIf you want to access Flux Dev, you need to go to Go to [https://huggingface.co/black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and accept the terms and conditions."			
+			}
+		],
 		"helper": {
 			"model": {
 				"title": "Model",
